@@ -1,1 +1,41 @@
 /* save */
+.button-container {
+    background-color: #CCCCFF;
+    height: 650px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    display: grid;
+    
+}
+
+button {
+   border-radius: 15%;
+   width: 70px;
+   height: 70px;
+}
+
+.first-row {
+    margin: 0 auto;
+}
+
+.second-row {
+    margin: 0 auto;
+}
+
+.third-row {
+    margin: 0 auto;
+}
+
+.fourth-row {
+    margin: 0 auto;
+}
+.fifth-row {
+    margin: 0 auto;
+}
+form {
+    margin-top: 40px;
+    margin: auto;
+}
+
