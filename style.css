@@ -1,7 +1,18 @@
 /* save */
+/* body {
+    font-family: ;
+}  */
+
+#display {
+    height: 70px;
+    width: 400px;
+    font-size: 30px;
+    border: none; 
+}
+
 .button-container {
     background-color: #CCCCFF;
-    height: 650px;
+    height: 700px;
     width: 500px;
     margin: 0 auto;
     margin-top: 40px;
@@ -10,10 +21,19 @@
     
 }
 
+
 button {
-   border-radius: 15%;
-   width: 70px;
-   height: 70px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none; 
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 3px;
+}
+
+#delete, .BK {
+    font-size: 25px;
 }
 
 .first-row {
@@ -39,3 +59,6 @@ form {
     margin: auto;
 }
 
+/* .number {
+    font-size: 30px;
+} */
