@@ -3,62 +3,106 @@
     font-family: ;
 }  */
 
+
+html {
+    padding: 0;
+}
+
+body {
+    place-items: center;
+    background-color: black;
+}
+
+header {
+    font-style: italic;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: #CCCCFF;
+   }
+
 #display {
-    height: 70px;
+    /*height: 70px;
     width: 400px;
     font-size: 30px;
-    border: none; 
+    border: none; */
+    width: 310px;
+    height: 60px;
+    margin: 80px;
+    border-radius: 20px;
+    font-size: 3rem;
+    background-color: black;
+    color: #CCCCFF;
 }
 
 .button-container {
     background-color: #CCCCFF;
     height: 700px;
-    width: 500px;
+    width: 470px;
     margin: 0 auto;
     margin-top: 40px;
-    border-radius: 12px;
+    border-radius: 40px;
     display: grid;
+    padding-bottom: 10px;
     
 }
 
+
+.button-inputs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
 
 button {
     border-radius: 50%;
     width: 80px;
     height: 80px;
     border: none; 
+    margin-bottom: 30px;
     font-size: 30px;
     font-weight: lighter;
     margin: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: #CCCCFF;
+}
+
+button:hover {
+background-color: black;
+color: #CCCCFF;
+scale: 1.1;
 }
 
 #delete, .BK {
     font-size: 25px;
 }
 
-.first-row {
-    margin: 0 auto;
+@media screen and (max-width: 1024px) {
+    header {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
 }
 
-.second-row {
-    margin: 0 auto;
+@media screen and (min-width: 320px) and (max-width: 512px) {
+
+    header {
+        font-size: 1.7rem;
+        padding-top: 15px;
+        padding-bottom: 20px;
+       place-items: center;
+    }
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .calc-container {
+        width: 400px;
+        margin: 0 auto;
+        height: 730px;
+    }
 }
 
-.third-row {
-    margin: 0 auto;
-}
-
-.fourth-row {
-    margin: 0 auto;
-}
-.fifth-row {
-    margin: 0 auto;
-}
-form {
-    margin-top: 40px;
-    margin: auto;
-}
-
-/* .number {
-    font-size: 30px;
-} */
