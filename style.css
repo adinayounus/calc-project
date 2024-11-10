@@ -3,6 +3,7 @@
     font-family: ;
 }  */
 
+
 html {
     padding: 0;
 }
@@ -46,6 +47,7 @@ header {
     
 }
 
+
 .button-inputs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -76,10 +78,6 @@ scale: 1.1;
     font-size: 25px;
 }
 
-/* .number {
-    font-size: 30px;
-} */
-
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 15px;
@@ -107,3 +105,4 @@ scale: 1.1;
         height: 730px;
     }
 }
+

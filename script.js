@@ -1,5 +1,4 @@
 //save
-//save
 //on click, the number that is pressed will display in the viewfinder. after typing out the equation, pressing the equals button will also display the result in the viewfinder 
 
 
