@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,42 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header> THE A.B. CALCULATOR </header>
 
     <div class="button-container">
-        <form>
-        <input type="number"></form>
-        <div class="first-row">
-         <button class="c-button" onclick="">C</button>
-         <button class="percent" onclick="">%</button>
-         <button class="back-button"  onclick="">🔙</button>
-         <button class="divide-button" onclick="">÷</button>
-        </div>
-        <div class="second-row">
-         <button class="seven" onclick="">7</button>
-         <button class="eight" onclick="">8</button>
-         <button class="nine" onclick="">9</button>
-         <button class="multiply-buton" onclick="">x</button>
-        </div>
-        <div class="third-row">
-         <button class="four" onclick="">4</button>
-         <button class="five" onclick="">5</button>
-         <button class="six" onclick="">6</button>
-         <button class="minus" onclick="">-</button>
-        </div>
-        <div class="fourth-row">
-         <button class="one" onclick="">1</button>
-         <button class="two" onclick="">2</button>
-         <button class="three" onclick="">3</button>
-         <button class="BK" onclick="">+</button>
-        </div>
-        <div class="fifth-row">
-         <button class="zero" onclick="">0</button>
-         <button class="decimal" onclick="">.</button>
-         <button class="equal" onclick="">=</button>
-         <button class="equal" onclick="">BK</button>
+        
+        <input id="display" type="text">
+        <div class="button-inputs">
+            <button class="clear" onclick="clearDisplay()">C</button>
+            <button id="percent" onclick="buttonDisplay('%')">%</button>
+            <button id="delete" onclick="deleteButton('DEL')">DEL</button>
+            <button id="division" onclick="diviDisplay('÷')">÷</button>
+            <button class="number" onclick="buttonDisplay('7')">7</button>
+            <button class="number" onclick="buttonDisplay('8')">8</button>
+            <button class="number" onclick="buttonDisplay('9')">9</button>
+            <button id="multiplier" onclick="multiDisplay('x')">x</button>
+            <button class="number" onclick="buttonDisplay('4')">4</button>
+            <button class="number" onclick="buttonDisplay('5')">5</button>
+            <button class="number" onclick="buttonDisplay('6')">6</button>
+            <button id="subtract" onclick="subDisplay('-')">-</button>
+            <button class="number" onclick="buttonDisplay('1')">1</button>
+            <button class="number" onclick="buttonDisplay('2')">2</button>
+            <button class="number" onclick="buttonDisplay('3')">3</button>
+            <button id="add" onclick="addDisplay('+')">+</button>
+            <button class="number" onclick="buttonDisplay('0')">0</button>
+            <button class="number" onclick="buttonDisplay('.')">.</button>
+            <button class="equal" onclick="calculate()">=</button>
+            <button class="BK" onclick="supriseMessage()">BK</button>
         </div>
     </div>
     <!-- save -->
-     <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
